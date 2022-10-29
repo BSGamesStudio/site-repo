@@ -1,0 +1,228 @@
+/*==========  Desktop First  ========== */
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 4000px) {
+  .news-container{
+     margin-left: 72px;
+  }
+  .mobile-header{
+     display: none;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .Ds-site img{
+     width: 302px;
+  }
+  .title-top {
+     margin-top: 30px;
+  }
+
+  .mobile-header{
+     display: flex;
+  }
+  .support-header{
+     display: none;
+  }
+  .footer{
+     display: none;
+  }
+  body{
+     margin-bottom: 0;
+  }
+}
+@media only screen and (min-width: 768px)
+.col-catalog {
+    flex: 0 0 auto;
+    width: 50%;
+}
+@media only screen and (max-width: 744px) {
+  .news-container {
+    margin-left: 322px;
+    max-width: 348px;
+   }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .col-6{
+     display: none;
+  }
+  .title-top{
+    margin-left: 54px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 447px;
+  }
+  .Ds-site h1{
+     font-size: 40px;
+  }
+  .Ds-site p {
+     font-size: 17px;
+     margin-bottom: 27px;
+     margin-top: 10px;
+  } 
+  .col-6{
+     width: 100%;
+  }
+  .button-top{
+     width: 163px;
+     height: 58px;
+     font-size: 17px;
+   }
+  .button-top-2{
+     width: 163px;
+     height: 58px;
+     font-size: 17px;
+   }
+   .top-image{
+     padding: 73px;
+     align-items: center;
+   }
+   .top-image h1{
+     font-size: 32px;
+   }
+   .top-image p{
+     font-size: 17px;
+     text-align: center;
+   }
+   .news-container {
+     margin-left: 55px;
+     max-width: 466px;
+   }
+   .hide-mobile{
+     max-width: 103px;
+     margin-bottom: 24px;
+   }
+   .hide-mobile-1{
+     margin-left: 47px;
+     max-width: 103px;
+     margin-bottom: 24px;
+   }
+   .hide-mobile-2{
+     max-width: 103px;
+     margin-bottom: 24px;
+     margin-left: 0;
+   }
+   .footer-logo-main{
+     width: 329px;
+     align-items: flex-end;
+     justify-content: center;
+     flex-direction: column;
+   }
+   .gutterHolder {
+     margin-left: -256px;
+   }
+   .free-block {
+     display: none;
+   }
+}
+@media only screen and (max-width: 720px) {
+   .container-sm, .container {
+    max-width: 471px;
+   }
+   .news-container {
+    margin-left: 284px;
+    max-width: 78px;
+   }
+   .Ds-site {
+    max-width: 625px;
+    text-align: center;
+   }
+}
+@media only screen and (max-width: 644px) {
+   .Ds-site {
+    max-width: 537px;
+    text-align: center;
+   }
+}
+@media only screen and (max-width: 630px) {
+   .news-container {
+     margin-left: 315px;
+     max-width: 229px;
+   }
+}
+@media only screen and (max-width: 562px) {
+   .title-top{
+     margin-left: 25px;
+  }
+  .top-image h1 {
+    font-size: 30px;
+  }	
+  .top-image p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .news_item_link{
+    max-width: 373px;
+    margin-left: 248px;
+  }
+  .news-container {
+    margin-left: 82px;
+    max-width: 400px;
+   }
+}
+@media only screen and (max-width: 572px) {
+   .Ds-site {
+    max-width: 480px;
+    text-align: center;
+   }
+}
+@media only screen and (max-width: 556px) {
+   .Ds-site {
+    max-width: 520px;
+    text-align: center;
+   }
+}
+@media only screen and (max-width: 552px) {
+   .Ds-site {
+    max-width: 495px;
+    text-align: center;
+   }
+   .news-container {
+    margin-left: 81px;
+   }
+}
+@media only screen and (max-width: 548px) {
+   .title-top {
+    margin-left: 54px;
+   }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .news-container {
+     max-width: 319px;
+  }
+  .title-top{
+     margin-left: 48px;
+     max-width: 343px;
+  }
+  .Ds-site h1{
+     font-size: 36px;
+  }
+  .Ds-site p{
+     font-size: 15px;
+  }
+  .top-image p{
+     font-size: 15px;
+     text-align: center;
+  }
+  .top-image h1 {
+    font-size: 24px;
+  }
+  .gutterHolder {
+    margin-left: -165px;
+  }
+  .mobile-cont{
+    margin-bottom: 0;
+  }
+  .mobile-cont-2{
+    margin-bottom: 90px;
+    margin-left: 18px;
+  }
+}
+@media only screen and (max-width: 456px) {
+  .news-container {
+    margin-left: -40px;
+    max-width: 477px;
+   }
+}

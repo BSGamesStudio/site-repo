@@ -1079,6 +1079,12 @@ a.block footer {
    margin-right: 69px;
    padding: 36px;
 }
+.th-a-no{
+   background-color: #dbdbdb;
+   font-size: 60px;
+   margin-right: 69px;
+   padding: 36px;
+}
 .th-title{
    position: absolute;
    z-index: 100;

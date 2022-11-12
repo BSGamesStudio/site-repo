@@ -47,6 +47,9 @@
   .col-6{
      display: none;
   }
+  #cookiePopup{
+     display: none;
+  }
   .title-top{
     margin-left: 54px;
     display: flex;

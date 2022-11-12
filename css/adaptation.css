@@ -30,10 +30,11 @@
      margin-bottom: 0;
   }
 }
-@media only screen and (min-width: 768px)
-.col-catalog {
+@media only screen and (min-width: 768px) {
+  .col-catalog {
     flex: 0 0 auto;
     width: 50%;
+  }
 }
 @media only screen and (max-width: 744px) {
   .news-container {
